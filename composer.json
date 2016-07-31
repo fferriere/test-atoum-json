@@ -1,0 +1,21 @@
+{
+    "name": "fferriere/test-atoum-json",
+    "description": "Project to test json assert with atoum",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Fferriere\\TestAtoumJson\\": "src/"
+        }
+    },
+    "require-dev": {
+        "atoum/atoum": "^2.8",
+        "atoum/json-schema-extension": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian FERRIERE",
+            "email": "ferriere.florian@gmail.com"
+        }
+    ]
+}
